@@ -11,7 +11,7 @@ function Header() {
   return (
     <header id='Home'>
       <section className='app__Header'>
-        <h1 className='app__Header-title'>HELLO,I'AM BILLAL TADJINE</h1>
+        <h1 className='app__Header-title'>HELLO,I'M BILLAL TADJINE</h1>
 <p className='app__Header-p'>Welcome to my website! I am a front-end web developer who applies his skills in building websites.</p>
   <a href='#Projects'>  <Button Button="PROJECTS" href={"#Projects"}/></a>
   

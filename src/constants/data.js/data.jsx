@@ -1,7 +1,7 @@
 export const Data = [
   {
     title: 'React-Resturant',
-    description: "I'm a beginner to React, however I've been using it for quite some time now. I had a lot of fun doing this project and learnt a lot about using React.",
+    description: "I'm a beginner to React so this is my first project eith react, however I've been using it for quite some time now. I had a lot of fun doing this project and learnt a lot about using React.",
       image: require('./images/1.png'),
       tags: ['React', 'Css',"Tailwind"],
     source: 'https://billal2022.github.io/ch1-React-Resturant/',

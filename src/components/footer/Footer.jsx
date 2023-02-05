@@ -25,7 +25,7 @@ export default function Footer() {
     <div className='Footer__main-container-bot'>
         @ Copyright 
   
-     2023. Made by <a href='Home'>Billal Tadjine</a>
+     2023. Made by <a href='#Home' target={'_blank'}>Billal Tadjine</a>
         </div>
 
         </div>
