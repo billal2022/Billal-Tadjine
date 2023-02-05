@@ -35,7 +35,7 @@
 @media (max-width: 400px) {
   .Pdata__container-btns {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     flex-direction: column;
   }
@@ -60,13 +60,13 @@
   box-shadow: none;
   padding-inline: 1rem;
 }
-.Pdata__container-btns .btntwo:hover *:nth-child(2) {
+.Pdata__container-btns .btntwo:hover *:nth-child(2), .Pdata__container-btns .btntwo:focus *:nth-child(2) {
   color: black;
 }
 .Pdata__container-btns .btntwo *:nth-child(2) {
   color: white;
 }
-.Pdata__container-btns .btntwo *:nth-child(2):hover {
+.Pdata__container-btns .btntwo *:nth-child(2):hover, .Pdata__container-btns .btntwo *:nth-child(2):focus {
   color: black;
 }
 .Pdata__container-btns .btntwo *:nth-child(1) {
