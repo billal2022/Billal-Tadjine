@@ -31,8 +31,8 @@ export const Data = [
     description: "In this project, I  built out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test my JS skills!",
     image: require('./images/4.png'),
     tags: ['Html','Scss','Css', 'Bootstap'],
-    source: 'https://billal2022.github.io/ch24-FEM-Interactive-pricing-component/',
-    visit: 'https://github.com/billal2022/ch24-FEM-Interactive-pricing-component.git',
+    source: 'https://github.com/billal2022/ch25-FEM-social-media-dashboard-with-theme-switcher-master.git',
+    visit: 'https://billal2022.github.io/ch25-FEM-social-media-dashboard-with-theme-switcher-master/',
     id: 3,
   },
 ]
