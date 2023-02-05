@@ -1,0 +1,105 @@
+header{
+    background: url(../../assets/2341664.png) ;
+background-size: cover;
+background-repeat: no-repeat;
+
+    height: 100vh;
+    min-height: 65rem;
+    max-height: 120rem;
+    position: relative;
+    @media (max-width: 991.98px){
+    	min-height:0%;
+        height: 70vh;
+    }
+}
+.app__Header{
+    max-width: 90rem;
+    width: 66%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+font-family: monospace;
+    text-align: center;
+
+    &-title{
+        font-weight: 900;
+        line-height: 1;
+font-size: 5rem;
+color: white;
+@media (max-width: 991.98px){
+ font-size: 1.7rem;
+ scale: 1.4;
+}
+    }
+    &-p{    
+        padding-block: 2rem;
+        max-width: 65rem;
+        text-transform: capitalize;
+        margin-inline: auto;
+        color: #f7f7f7;
+        letter-spacing: 3px;
+        line-height: 2;
+    @media (max-width: 1200px){
+    	max-width: 50rem;
+    }
+    @media (max-width: 790px){
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+    }
+    }
+    &-contact{
+
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #fff;
+        box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+          & a{
+            padding-inline: 1rem;
+            padding-bottom: 1rem;
+            font-size: 3rem;
+            margin-bottom: 1rem;    
+            font-size: 3rem;
+            cursor: pointer;
+            padding: 1.4rem;
+    
+            
+&:hover{
+    background-color: rgba(0, 208, 255, 0.112);
+    margin-bottom: 1rem;
+border-radius: 10px;
+justify-self: center;
+}
+
+&:active{
+    scale: 0.91;
+}
+*{
+    &:hover{
+        color: #63ACDF;
+    }
+}
+        }
+    }
+}
+@media (max-width: 768px){
+    .app__Header-contact{
+
+        display: none;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .app__Header-contact a {
+
+        font-size: 2rem;
+    }
+}

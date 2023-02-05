@@ -1,0 +1,74 @@
+.Footer__main{
+    background: #000;
+    & h2,p,span{
+        color: #fff;
+    }
+    & h2{
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    & p{
+        margin-top: 2rem;
+        color: #eee;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    &-container{
+        max-width: 120rem;
+    margin: auto;
+    width: 80%;
+        &-content-top{
+            display: flex;
+    justify-content: space-between;
+    padding: 8rem 0;
+    @media (max-width: 991.98px){
+    	padding: 6rem 0;
+    }
+    @media  (max-width: 767.98px){
+        display: block;
+    }
+&-left{
+    width: 40%;
+    max-width: 50rem;
+    @media (max-width: 767.98px){
+    	width:auto;
+        margin-bottom: 3rem;
+    }
+}
+&-right{
+    span{
+        font-weight:500 ;
+        font-size: 1.7rem;
+    }
+&-icons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 17px;
+    font-size: 1.7rem; 
+    & * {
+color: white;
+&:hover,&:focus{
+    color: var(--hover-sky-blue);
+}
+    }
+}
+}
+}
+&-bot{
+    a{
+        color: white;
+    }
+    padding: 4rem 0;
+    border-top: 1px solid #444;
+    color: #eee;
+    font-size: 1.2rem;
+    text-align: left;
+    text-align: center;
+    @media (max-width: 991.98px){
+        padding: 3.5rem 0;
+    }
+}
+
+    }
+}

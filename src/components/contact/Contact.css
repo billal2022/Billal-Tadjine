@@ -1,0 +1,130 @@
+.Contact__Container {
+  background: url(../../assets/2341664.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Contact__Container-bg {
+  padding-block: var(--padding-block-components);
+  max-width: 120rem;
+  margin: auto;
+  width: 92%;
+}
+.Contact__Container-p {
+  padding-block: 2rem;
+  max-width: 65rem;
+  text-transform: capitalize;
+  margin-inline: auto;
+  color: #f7f7f7;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+@media (max-width: 1200px) {
+  .Contact__Container-p {
+    max-width: 50rem;
+  }
+}
+@media (max-width: 790px) {
+  .Contact__Container-p {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+  }
+}
+.Contact__Container__form-feild {
+  margin-bottom: 4rem;
+}
+@media (max-width: 991.98px) {
+  .Contact__Container__form-feild {
+    margin-bottom: 3rem;
+  }
+}
+.Contact__Container__form-label {
+  color: #666;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: left;
+}
+@media (max-width: 991.98px) {
+  .Contact__Container__form-label {
+    font-size: 1rem;
+  }
+}
+.Contact__Container__form-input {
+  color: #333;
+  padding: 2rem;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  background: #f0f0f0;
+  border-radius: 5px;
+  font-weight: 600;
+  resize: none;
+}
+@media (max-width: 991.98px) {
+  .Contact__Container__form-input {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
+.Contact__Container__form-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  background: #fff;
+  padding: 4rem;
+  margin-top: 6rem;
+  max-width: 80rem;
+  text-align: right;
+  width: 95%;
+  border-radius: 5px;
+  margin: 6rem auto 0 auto;
+}
+@media (max-width: 767.98px) {
+  .Contact__Container__form-container {
+    padding: 2rem;
+  }
+}
+.Contact__Container-title {
+  display: grid;
+  justify-items: center;
+  margin-inline: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+@media (max-width: 576px) {
+  .Contact__Container-title {
+    display: contents;
+  }
+}
+.Contact__Container-title h1 {
+  color: white;
+}
+.Contact__Container-title p {
+  color: whitesmoke;
+}
+
+form button {
+  border-color: black;
+}
+form button:hover {
+  background-color: rgba(102, 102, 102, 0.0901960784);
+}
+
+.submit {
+  text-transform: uppercase;
+  background: transparent;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  border: 0;
+  color: black;
+  font-size: 1.5rem;
+  border-color: black;
+  font-weight: 700;
+}
+@media (max-width: 767.98px) {
+  .submit {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=Contact.css.map */

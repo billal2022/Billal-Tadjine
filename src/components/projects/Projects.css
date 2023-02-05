@@ -1,0 +1,56 @@
+.App__Projects {
+  padding-block: var(--padding-block-components);
+  max-width: 120rem;
+  margin: auto;
+  width: 92%;
+  display: grid;
+  justify-items: center;
+}
+@media (max-width: 992px) {
+  .App__Projects {
+    padding-block: 0rem;
+  }
+}
+.App__Projects-link {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  text-decoration: none;
+  margin-bottom: 4rem;
+}
+.App__Projects-link button {
+  box-shadow: none;
+  color: black;
+  border: 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.App__Projects-link button:hover {
+  color: white;
+}
+.App__Projects-link button .icon {
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+.App__Projects-link button .icon * {
+  color: rgb(0, 255, 234);
+}
+.App__Projects-title {
+  display: grid;
+  justify-items: center;
+  margin-inline: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.App__Projects-p {
+  color: grey;
+  letter-spacing: 3px;
+  max-width: 50rem;
+}
+@media (max-width: 991.98px) {
+  .App__Projects-p {
+    font-size: 1.1rem;
+  }
+}/*# sourceMappingURL=Projects.css.map */

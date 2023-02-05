@@ -1,0 +1,128 @@
+.Contact {
+
+    &__Container{
+        background: url(../../assets/2341664.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+   
+      
+    &-bg{
+     
+        padding-block:var(--padding-block-components);
+        max-width: 120rem;
+    margin: auto;
+    width: 92%;
+    }
+    &-p{
+        padding-block: 2rem;
+        max-width: 65rem;
+        text-transform: capitalize;
+        margin-inline: auto;
+        color: #f7f7f7;
+        letter-spacing: 3px;
+        line-height: 2;
+    @media (max-width: 1200px){
+    	max-width: 50rem;
+    }
+    @media (max-width: 790px){
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+    }
+    }
+    &__form{
+        
+       
+        &-feild{
+            margin-bottom: 4rem;
+            @media (max-width: 991.98px){
+                margin-bottom: 3rem;
+            }
+        }
+        &-label{
+            color: #666;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: block;
+            text-align: left;
+        
+            @media (max-width: 991.98px){
+              
+                font-size: 1rem;
+            }
+        }
+        &-input{
+            color: #333;
+            padding: 2rem;
+            width: 100%;
+            border: 1px solid #ebebeb;
+            font-size: 1.6rem;
+            letter-spacing: 0;
+            background: #f0f0f0;
+            border-radius: 5px;
+            font-weight: 600;
+            resize: none;
+            @media (max-width: 991.98px){
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+        }
+
+    }
+    }
+    &__Container__form-container {
+        box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+        background: #fff;
+        padding: 4rem;
+        margin-top: 6rem;
+        max-width: 80rem;
+        text-align: right;
+        width: 95%;
+        border-radius: 5px;
+        margin: 6rem auto 0 auto;
+        @media  (max-width: 767.98px){
+        	padding: 2rem;
+          
+        }
+    }
+    &__Container-title{
+        display: grid;
+        justify-items: center;
+        margin-inline: 3rem;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 8rem;
+        @media (max-width: 576px){
+        	display: contents;
+        }
+        h1{
+            color: white;
+        }
+        p{
+            color: whitesmoke;
+        }
+    }
+}
+form button{
+    border-color:black ; 
+    &:hover{
+        background-color: #66666617;
+       
+    }
+}
+.submit{text-transform: uppercase;
+    background: transparent;
+    letter-spacing: 2.5px;
+   cursor: pointer;
+    border: 0;
+    color: black;
+    font-size: 1.5rem;
+    border-color:black ;
+    font-weight: 700;
+    @media (max-width: 767.98px){
+        font-size: 1rem;
+    }
+ 
+}

@@ -1,0 +1,79 @@
+.Footer__main {
+  background: #000;
+}
+.Footer__main h2, .Footer__main p, .Footer__main span {
+  color: #fff;
+}
+.Footer__main h2 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.Footer__main p {
+  margin-top: 2rem;
+  color: #eee;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.Footer__main-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 80%;
+}
+.Footer__main-container-content-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 0;
+}
+@media (max-width: 991.98px) {
+  .Footer__main-container-content-top {
+    padding: 6rem 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .Footer__main-container-content-top {
+    display: block;
+  }
+}
+.Footer__main-container-content-top-left {
+  width: 40%;
+  max-width: 50rem;
+}
+@media (max-width: 767.98px) {
+  .Footer__main-container-content-top-left {
+    width: auto;
+    margin-bottom: 3rem;
+  }
+}
+.Footer__main-container-content-top-right span {
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.Footer__main-container-content-top-right-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 17px;
+  font-size: 1.7rem;
+}
+.Footer__main-container-content-top-right-icons * {
+  color: white;
+}
+.Footer__main-container-content-top-right-icons *:hover, .Footer__main-container-content-top-right-icons *:focus {
+  color: var(--hover-sky-blue);
+}
+.Footer__main-container-bot {
+  padding: 4rem 0;
+  border-top: 1px solid #444;
+  color: #eee;
+  font-size: 1.2rem;
+  text-align: left;
+  text-align: center;
+}
+.Footer__main-container-bot a {
+  color: white;
+}
+@media (max-width: 991.98px) {
+  .Footer__main-container-bot {
+    padding: 3.5rem 0;
+  }
+}/*# sourceMappingURL=Footer.css.map */
