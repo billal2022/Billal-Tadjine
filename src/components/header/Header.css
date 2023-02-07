@@ -54,7 +54,7 @@ header {
 }
 @media (max-width: 790px) {
   .app__Header-p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 2px;
   }
 }
@@ -68,21 +68,31 @@ header {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 .app__Header-contact a {
   padding-inline: 1rem;
   padding-bottom: 1rem;
   font-size: 3rem;
-  margin-bottom: 1rem;
   font-size: 3rem;
   cursor: pointer;
   padding: 1.4rem;
 }
-.app__Header-contact a:hover {
+.app__Header-contact a:nth-child(1):hover {
   background-color: rgba(0, 208, 255, 0.112);
   margin-bottom: 1rem;
   border-radius: 10px;
-  justify-self: center;
+}
+.app__Header-contact a:nth-child(2):hover {
+  background-color: rgba(0, 208, 255, 0.112);
+  margin-block: 1rem;
+  border-radius: 10px;
+}
+.app__Header-contact a:nth-child(3):hover {
+  background-color: rgba(0, 208, 255, 0.112);
+  margin-top: 1rem;
+  border-radius: 10px;
 }
 .app__Header-contact a:active {
   scale: 0.91;

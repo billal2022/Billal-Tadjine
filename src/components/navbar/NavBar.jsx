@@ -1,5 +1,5 @@
 import React from 'react';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { FaHamburger } from "react-icons/fa"
 import { AiOutlineClose } from 'react-icons/ai';
 import img from "../../assets/coding.png"
 
@@ -11,7 +11,7 @@ const BasicExample = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
      <img src={img}/>
-     <h1 className='app__navbar-title'>BILLAL TADJINE</h1>
+     <h1 className={"app__navbar-title"}>BILLAL TADJINE</h1>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#Home">Home</a></li>
@@ -21,7 +21,7 @@ const BasicExample = () => {
       </ul>
 
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+        <FaHamburger color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <AiOutlineClose fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />

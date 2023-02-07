@@ -25,7 +25,7 @@
 }
 @media (max-width: 790px) {
   .Contact__Container-p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 2px;
   }
 }
@@ -106,10 +106,14 @@
 }
 
 form button {
-  border-color: black;
+  border-color: #EE487A;
+  background-color: #EE487A;
 }
 form button:hover {
-  background-color: rgba(102, 102, 102, 0.0901960784);
+  background-color: white;
+}
+form button:hover input {
+  color: #EE487A;
 }
 
 .submit {
@@ -118,9 +122,9 @@ form button:hover {
   letter-spacing: 2.5px;
   cursor: pointer;
   border: 0;
-  color: black;
+  color: white;
   font-size: 1.5rem;
-  border-color: black;
+  font-weight: 500;
   font-weight: 700;
 }
 @media (max-width: 767.98px) {

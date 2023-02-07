@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
 /**hover**/
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Big+Shoulders+Display:wght@100;300;400;700;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
@@ -32,11 +33,11 @@ button:hover {
 }
 
 p {
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 @media (max-width: 768px) {
   p {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -44,7 +45,7 @@ p {
   box-shadow: 0px 0px 60px -16px black;
 }
 .navbar * {
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.6rem;
 }
 .navbar *:hover {
@@ -52,7 +53,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, span, div {
-  font-family: system-ui;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.8rem;
 }
 
@@ -67,10 +68,6 @@ body {
   color: #100e0e;
   transition: 300ms;
   scroll-behavior: smooth;
-}
-
-p {
-  font-size: 1.3rem;
 }
 
 a.nav-link {

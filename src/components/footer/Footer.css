@@ -10,7 +10,7 @@
   letter-spacing: 1px;
 }
 .Footer__main p {
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: #eee;
   font-size: 1rem;
   line-height: 1.7;
@@ -76,4 +76,8 @@
   .Footer__main-container-bot {
     padding: 3.5rem 0;
   }
+}
+
+.resume {
+  margin-top: 1rem;
 }/*# sourceMappingURL=Footer.css.map */

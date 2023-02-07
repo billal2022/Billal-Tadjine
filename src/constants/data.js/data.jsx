@@ -1,7 +1,7 @@
 export const Data = [
   {
     title: 'React-Resturant',
-    description: "I'm a beginner to React so this is my first project eith react, however I've been using it for quite some time now. I had a lot of fun doing this project and learnt a lot about using React.",
+    description: "I'm a beginner to React so this is my first project with react, however I've been using it for quite some time now. I had a lot of fun doing this project and learnt a lot about using React.",
       image: require('./images/1.png'),
       tags: ['React', 'Css',"Tailwind"],
     source: 'https://billal2022.github.io/ch1-React-Resturant/',
@@ -28,7 +28,7 @@ export const Data = [
   },
   {
     title: 'Social media dashboard with theme switcher',
-    description: "In this project, I  built out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test my JS skills!",
+    description: "This challenge will be a perfect chance to practice my Grid skills. The color theme switcher also adds a nice additional test.",
     image: require('./images/4.png'),
     tags: ['Html','Scss','Css', 'Bootstap'],
     source: 'https://billal2022.github.io/ch25-FEM-social-media-dashboard-with-theme-switcher-master/',

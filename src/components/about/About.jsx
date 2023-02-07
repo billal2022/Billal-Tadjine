@@ -25,8 +25,8 @@ function About() {
       Learn about me!
     </h1>
     <p>
-    Hello and welcome to my profile, I am a <strong>Front End Web Developer</strong> fresh graduate with a lot of experience in web design. if you are looking for an outstanding developer who can handle any task with honesty and professionalism then feel free to <a href="#Contact">contact me</a> anytime</p>
-<p>    I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+    Hello and welcome to my profile, I am a <strong>Front End Web Developer</strong> with a lot of experience in web design. if you are looking for an outstanding developer who can handle any task with honesty and professionalism then feel free to <a href="#Contact">contact me</a> anytime</p>
+<p>    I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <a href="#Contact">contact me</a>.
 </p>  
 
   </div>

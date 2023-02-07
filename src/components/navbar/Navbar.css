@@ -65,9 +65,10 @@ letter-spacing: 1px;
     font-size: 1.3rem;
     text-align: start;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .app__navbar-links li a:hover,.app__navbar-links li a:focus {
@@ -132,7 +133,7 @@ letter-spacing: 1px;
     color: #979797;
     font-size: 1rem;
     text-align: start;
-    font-family: system-ui;
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     font-weight: 600;
 }

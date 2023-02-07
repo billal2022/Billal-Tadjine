@@ -12,6 +12,8 @@ export default function Footer() {
 <div className='Footer__main-container-content-top-left'>
     <h2>BILLAL TADJINE</h2>
     <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+    <h2 className='resume'>Resume link</h2>
+    <p><a target={'_blank'} href="https://www.canva.com/design/DAFXpxhUIuc/E3sOvjhvZOXYFIRyHwXwBg/view?utm_content=DAFXpxhUIuc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" style={{color:"white"}}>https://www.canva.com/billal-tadjine resume</a></p>
 </div>
 <div className='Footer__main-container-content-top-right'>
     <span>SOCIAL</span>
