@@ -1,4 +1,4 @@
-button {
+.btn button {
   padding: 1rem 4rem;
   background: transparent;
   letter-spacing: 2.5px;
@@ -9,22 +9,21 @@ button {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-serif;
-  border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
 }
 @media (max-width: 768px) {
-  button {
+  .btn button {
     padding: 0.9rem 1.9rem;
     font-size: 1rem;
     border: 2px solid var(--hover-sky-blue);
     font-weight: 500;
   }
 }
-button:hover, button:focus {
+.btn button:hover, .btn button:focus {
   transform: translateY(10px);
-  background-color: #63ACDF;
+  background-color: var(--hover-sky-blue);
   font-weight: 700;
 }
-button:active {
+.btn button:active {
   scale: 0.96;
 }/*# sourceMappingURL=Button.css.map */

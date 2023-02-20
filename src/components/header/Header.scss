@@ -1,40 +1,28 @@
-header{
-    background: url(../../assets/2341664.png) ;
-background-size: cover;
-background-repeat: no-repeat;
-
+header {
+    background: #212121;
     height: 100vh;
     min-height: 65rem;
     max-height: 120rem;
     position: relative;
-    @media (max-width: 991.98px){
-    	min-height:0%;
+    @media (max-width: 991.98px) {
+        min-height: 0%;
         height: 70vh;
     }
 }
-.app__Header{
+.app__Header {
     max-width: 90rem;
     width: 66%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 1.5rem;
     letter-spacing: 2.5px;
-font-family: monospace;
+    font-family: monospace;
     text-align: center;
-
-    &-title{
-        font-weight: 900;
-        line-height: 1;
-font-size: 5rem;
-color: white;
-@media (max-width: 991.98px){
- font-size: 1.7rem;
- scale: 1.4;
-}
-    }
-    &-p{    
+    margin-top: 1rem;
+   
+    &-p {
         padding-block: 2rem;
         max-width: 65rem;
         text-transform: capitalize;
@@ -42,16 +30,15 @@ color: white;
         color: #f7f7f7;
         letter-spacing: 3px;
         line-height: 2;
-    @media (max-width: 1200px){
-    	max-width: 50rem;
+        @media (max-width: 1200px) {
+            max-width: 50rem;
+        }
+        @media (max-width: 790px) {
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+        }
     }
-    @media (max-width: 790px){
-        font-size: 0.9rem;
-        letter-spacing: 2px;
-    }
-    }
-    &-contact{
-
+    &-contact {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -63,54 +50,69 @@ color: white;
         gap: 5px;
         border-bottom-right-radius: 1rem;
         border-top-right-radius: 1rem;
-          & a{
+        & a {
             padding-inline: 1rem;
             padding-bottom: 1rem;
             font-size: 3rem;
-             
+
             font-size: 3rem;
             cursor: pointer;
             padding: 1.4rem;
-            &:nth-child(1):hover{
+            &:nth-child(1):hover {
                 background-color: rgba(0, 208, 255, 0.112);
                 margin-bottom: 1rem;
-            border-radius: 10px;
+                border-radius: 10px;
             }
-            &:nth-child(2):hover{
+            &:nth-child(2):hover {
                 background-color: rgba(0, 208, 255, 0.112);
                 margin-block: 1rem;
-            border-radius: 10px;
+                border-radius: 10px;
             }
-            &:nth-child(3):hover{
+            &:nth-child(3):hover {
                 background-color: rgba(0, 208, 255, 0.112);
                 margin-top: 1rem;
-            border-radius: 10px;
+                border-radius: 10px;
             }
-    
 
-
-
-&:active{
-    scale: 0.91;
-}
-*{
-    &:hover{
-        color: #63ACDF;
-    }
-}
+            &:active {
+                scale: 0.91;
+            }
+            * {
+                &:hover {
+                    color: #63acdf;
+                }
+            }
         }
     }
 }
-@media (max-width: 768px){
-    .app__Header-contact{
-
+@media (max-width: 768px) {
+    .app__Header-contact {
         display: none;
     }
-    
 }
-@media (min-width: 768px) and (max-width: 991.98px){
+@media (min-width: 768px) and (max-width: 991.98px) {
     .app__Header-contact a {
-
         font-size: 2rem;
+    }
+}
+
+.title{
+    display: flex;
+    gap: 1rem;
+    font-size: clamp(3rem, 4vw, 7rem);
+    color: white;
+    font-weight: 100;
+    line-height: 1;
+    align-items: center;
+    white-space: nowrap;
+    @media (max-width: 992px){
+     flex-direction: column; 
+     white-space: normal;
+
+    }
+    & span{
+        color: var(--hover-sky-blue);
+        font-weight: 600;
+        font-size: clamp(2rem, 4vw, 7rem);
     }
 }

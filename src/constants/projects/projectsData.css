@@ -29,7 +29,7 @@
 }
 .Pdata__container-btns {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   color: white;
 }
 @media (max-width: 400px) {
@@ -116,7 +116,6 @@
   border-radius: 5px;
   font-weight: 600;
   color: #666;
-  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
 }

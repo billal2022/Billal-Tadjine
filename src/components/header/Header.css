@@ -1,7 +1,5 @@
 header {
-  background: url(../../assets/2341664.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #212121;
   height: 100vh;
   min-height: 65rem;
   max-height: 120rem;
@@ -25,18 +23,7 @@ header {
   letter-spacing: 2.5px;
   font-family: monospace;
   text-align: center;
-}
-.app__Header-title {
-  font-weight: 900;
-  line-height: 1;
-  font-size: 5rem;
-  color: white;
-}
-@media (max-width: 991.98px) {
-  .app__Header-title {
-    font-size: 1.7rem;
-    scale: 1.4;
-  }
+  margin-top: 1rem;
 }
 .app__Header-p {
   padding-block: 2rem;
@@ -98,7 +85,7 @@ header {
   scale: 0.91;
 }
 .app__Header-contact a *:hover {
-  color: #63ACDF;
+  color: #63acdf;
 }
 
 @media (max-width: 768px) {
@@ -110,4 +97,25 @@ header {
   .app__Header-contact a {
     font-size: 2rem;
   }
+}
+.title {
+  display: flex;
+  gap: 1rem;
+  font-size: clamp(3rem, 4vw, 7rem);
+  color: white;
+  font-weight: 100;
+  line-height: 1;
+  align-items: center;
+  white-space: nowrap;
+}
+@media (max-width: 992px) {
+  .title {
+    flex-direction: column;
+    white-space: normal;
+  }
+}
+.title span {
+  color: var(--hover-sky-blue);
+  font-weight: 600;
+  font-size: clamp(2rem, 4vw, 7rem);
 }/*# sourceMappingURL=Header.css.map */

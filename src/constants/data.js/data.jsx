@@ -3,7 +3,7 @@ export const Data = [
     title: 'React-Resturant',
     description: "I'm a beginner to React so this is my first project with react, however I've been using it for quite some time now. I had a lot of fun doing this project and learnt a lot about using React.",
       image: require('./images/1.png'),
-      tags: ['React', 'Css',"Tailwind,React"],
+      tags: ['React', 'Css',"Tailwind","React"],
     source: 'https://billal2022.github.io/ch1-React-Resturant/',
     visit: 'https://github.com/billal2022/ch1-React-Resturant.git',
     id: 0,

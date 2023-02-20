@@ -1,39 +1,45 @@
-import React from 'react';
-import { FaHamburger } from "react-icons/fa"
-import { AiOutlineClose } from 'react-icons/ai';
+import React, { useState } from 'react';
+
 import img from "../../assets/coding.png"
 
 import './Navbar.css';
 
 const BasicExample = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+  const [isMenuClicked, setIsMenuClicked] = useState(false)
+  const [menu_class, setMenuClass] = useState("app__navbar hidden")
+  const [open, setopen] = useState("openIcon open")
+  
+  const updateMenu = () => {
+    if(!isMenuClicked) {
+        setMenuClass("app__navbar visible")
+        setopen("openIcon close")
+    
+    }
+    else {
+        setMenuClass("app__navbar hidden")
+        setopen("openIcon open")
+    }
+    setIsMenuClicked(!isMenuClicked)
+  }
   return (
-    <nav className="app__navbar">
-      <div className="app__navbar-logo">
+    <nav className={menu_class} >
+      <div className="app__navbar-logo">  
      <img src={img}/>
      <h1 className={"app__navbar-title"}>BILLAL TADJINE</h1>
       </div>
+      <button onClick={updateMenu} class={open} type="button" >
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+        </button>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#Home">Home</a></li>
         <li className="p__opensans"><a href="#About">About</a></li>
         <li className="p__opensans"><a href="#Projects">Projects</a></li>
         <li className="p__opensans"><a href="#Contact">Contact</a></li>
       </ul>
-
-      <div className="app__navbar-smallscreen">
-        <FaHamburger color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
-        {toggleMenu && (
-          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <AiOutlineClose fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
-            <ul className="app__navbar-smallscreen_links">
-              <li><a href="#Home" onClick={() => setToggleMenu(false)}>Home</a></li>
-              <li><a href="#About" onClick={() => setToggleMenu(false)}>About</a></li>
-              <li><a href="#Projects" onClick={() => setToggleMenu(false)}>Projects</a></li>
-              <li><a href="#Contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
-            </ul>
-          </div>
-        )}
-      </div>
+        
+    
     </nav>
   );
 };
