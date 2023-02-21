@@ -58,17 +58,17 @@ header {
             cursor: pointer;
             padding: 1.4rem;
             &:nth-child(1):hover {
-                background-color: rgba(0, 208, 255, 0.112);
+                background-color: #d62b3f44;
                 margin-bottom: 1rem;
                 border-radius: 10px;
             }
             &:nth-child(2):hover {
-                background-color: rgba(0, 208, 255, 0.112);
+                background-color: #d62b3f44;
                 margin-block: 1rem;
                 border-radius: 10px;
             }
             &:nth-child(3):hover {
-                background-color: rgba(0, 208, 255, 0.112);
+                background-color: #d62b3f44;
                 margin-top: 1rem;
                 border-radius: 10px;
             }
@@ -78,7 +78,7 @@ header {
             }
             * {
                 &:hover {
-                    color: #63acdf;
+                    color:var(--hover-sky-blue);
                 }
             }
         }

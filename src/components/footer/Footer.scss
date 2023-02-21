@@ -1,5 +1,5 @@
 .Footer__main{
-    background: #000;
+    background-color: #D62B3F;;
     & h2,p,span{
         color: #fff;
     }
@@ -21,7 +21,7 @@
         &-content-top{
             display: flex;
     justify-content: space-between;
-    padding: 8rem 0;
+    padding: 4rem 0;
     @media (max-width: 991.98px){
     	padding: 6rem 0;
     }
@@ -60,7 +60,7 @@ color: white;
         color: white;
     }
     padding: 4rem 0;
-    border-top: 1px solid #444;
+    border-top: 2px solid #363636;
     color: #eee;
     font-size: 1.2rem;
     text-align: left;

@@ -26,11 +26,16 @@
   justify-content: space-between;
   box-shadow: none;
   background-color: transparent;
+  transition: 300ms ease-in-out;
 }
 .app__navbar.scroll {
   background: translateY(0px);
   background-color: white;
   box-shadow: 0px -4px 40px 1px;
+  border-bottom: 10px solid var(--hover-sky-blue);
+}
+.app__navbar.scroll .links li a {
+  color: var(--hover-sky-blue);
 }
 
 .app__navbar-logo {
@@ -80,7 +85,7 @@
     flex-direction: column;
     width: 100%;
     background: #212121;
-    border: 1px solid #212121;
+    border-top: 4px solid var(--hover-sky-blue);
     text-align: right;
     align-items: normal;
   }
@@ -93,7 +98,8 @@
     transform: translateX(0px);
   }
   .links li {
-    padding: 2rem;
+    padding: 2.3rem 0.7rem;
+    border-bottom: 1px solid grey;
   }
 }
 @media (max-width: 576px) {
@@ -105,7 +111,7 @@
 .links li a {
   margin: 1rem;
   cursor: pointer;
-  color: var(--hover-sky-blue);
+  color: whitesmoke;
   font-size: 1.3rem;
   text-align: start;
   text-decoration: none;
@@ -113,6 +119,11 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-serif;
+}
+@media (max-width: 777px) {
+  .links li a {
+    font-size: 1rem;
+  }
 }
 
 .links li a:hover, .links li a:focus {

@@ -12,21 +12,40 @@
   }
 }
 .App__Projects-link {
-  width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
   text-decoration: none;
   margin-bottom: 4rem;
 }
 .App__Projects-link button {
-  box-shadow: none;
-  color: black;
-  border: 0;
+  padding: 1rem 4rem;
+  background: transparent;
+  letter-spacing: 2.5px;
+  border: 4px solid var(--hover-sky-blue);
+  color: var(--hover-sky-blue);
+  font-weight: bolder;
+  font-size: 1.5rem;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   gap: 1rem;
   align-items: center;
 }
+@media (max-width: 991.98px) {
+  .App__Projects-link button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}
 .App__Projects-link button:hover {
+  transform: translateY(10px);
+  background-color: var(--hover-sky-blue);
+  font-weight: 700;
+  color: white;
+}
+.App__Projects-link button:hover .icon * {
   color: white;
 }
 .App__Projects-link button .icon {
@@ -34,7 +53,7 @@
   margin-left: 1rem;
 }
 .App__Projects-link button .icon * {
-  color: rgb(0, 255, 234);
+  color: grey;
 }
 .App__Projects-title {
   display: grid;

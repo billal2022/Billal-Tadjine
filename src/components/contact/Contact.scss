@@ -103,30 +103,33 @@
     }
 }
 form button{
-    border-color:#EE487A; 
-    background-color:#EE487A;
+    border-color:var(--hover-sky-blue); 
+    background-color:var(--hover-sky-blue);
 
     &:hover{
         background-color:white;
+        transform: translateY(10px);
         input{
-            color: #EE487A;
+            color: white;
         }
     }
 
 }
-.submit{text-transform: uppercase;
-    background: transparent;
+.submit{
+    padding: 1rem 4rem;
+    background: var(--hover-sky-blue);
     letter-spacing: 2.5px;
-   cursor: pointer;
-    border: 0;
+    border: 4px solid var(--hover-sky-blue);
     color: white;
+    font-weight: bolder;
     font-size: 1.5rem;
-    font-weight: 500;
-    padding: 1rem 2rem;
-    border: 2px solid;
-    font-weight: 700;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+cursor: pointer;
     @media (max-width: 767.98px){
         font-size: 1rem;
+       
     }
  
 }

@@ -65,17 +65,17 @@ header {
   padding: 1.4rem;
 }
 .app__Header-contact a:nth-child(1):hover {
-  background-color: rgba(0, 208, 255, 0.112);
+  background-color: rgba(214, 43, 63, 0.2666666667);
   margin-bottom: 1rem;
   border-radius: 10px;
 }
 .app__Header-contact a:nth-child(2):hover {
-  background-color: rgba(0, 208, 255, 0.112);
+  background-color: rgba(214, 43, 63, 0.2666666667);
   margin-block: 1rem;
   border-radius: 10px;
 }
 .app__Header-contact a:nth-child(3):hover {
-  background-color: rgba(0, 208, 255, 0.112);
+  background-color: rgba(214, 43, 63, 0.2666666667);
   margin-top: 1rem;
   border-radius: 10px;
 }
@@ -83,7 +83,7 @@ header {
   scale: 0.91;
 }
 .app__Header-contact a *:hover {
-  color: #63acdf;
+  color: var(--hover-sky-blue);
 }
 
 @media (max-width: 768px) {
