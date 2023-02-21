@@ -34,29 +34,29 @@ export default function Contact() {
  <div className='Contact__Container__form-container'>
     <form className='Contact__Container__form success' onSubmit={sendEmail} ref={form}>
         <div className='Contact__Container__form-feild'>
-            <label className='Contact__Container__form-label' for="name">Name</label>
+            <label className='Contact__Container__form-label' htmlFor="name">Name</label>
             <input required
              placeholder="Enter Your Name"
               type="text" 
-              class="Contact__Container__form-input"
+              className="Contact__Container__form-input"
                name="name"
                 id="name" />
         </div>
         <div className='Contact__Container__form-feild'>
-        <label className='Contact__Container__form-label' for="email">Email</label>
+        <label className='Contact__Container__form-label' htmlFor="email">Email</label>
             <input required
              placeholder="Enter Your Email"
               type="email" 
-              class="Contact__Container__form-input"
+              className="Contact__Container__form-input"
                name="email"
                 id="email" />
         </div>
         <div className='Contact__Container__form-feild'>
-        <label className='Contact__Container__form-label' for="Message">Message</label>
+        <label className='Contact__Container__form-label' htmlFor="Message">Message</label>
         <textarea required
          cols="30"
           rows="10" 
-          class="Contact__Container__form-input" 
+          className="Contact__Container__form-input" 
           placeholder="Enter Your Message" 
           name="message" 
           id="message"></textarea>

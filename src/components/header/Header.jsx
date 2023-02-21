@@ -36,20 +36,20 @@ function Header() {
         <a
           target={"_blank"}
           href="https://github.com/billal2022"
-          title="Github link">
+          title="Github link" rel="noreferrer">
           <GoMarkGithub />
         </a>
         <a
           target={"_blank"}
           href="https://www.linkedin.com/in/billal-tadjine-ba314a24b/"
-          title="LinkedIn link">
+          title="LinkedIn link" rel="noreferrer">
           {" "}
           <BsLinkedin />
         </a>
         <a
           target={"_blank"}
           href="https://www.frontendmentor.io/profile/billal2022"
-          title="Frontendmentor link">
+          title="Frontendmentor link" rel="noreferrer">
           <SiFrontendmentor />
         </a>
       </div>

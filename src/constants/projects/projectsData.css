@@ -59,6 +59,15 @@
   border-radius: 3rem 1rem 3rem 1rem;
   box-shadow: none;
   padding-inline: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .Pdata__container-btns .btntwo {
+    font-size: 1rem;
+  }
 }
 .Pdata__container-btns .btntwo:hover *:nth-child(2), .Pdata__container-btns .btntwo:focus *:nth-child(2) {
   color: black;

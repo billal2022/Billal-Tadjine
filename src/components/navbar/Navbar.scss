@@ -11,24 +11,30 @@
 }
 
 .app__navbar {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background: white;
-font-family: monospace;
-font-size: 0.9rem;
-    padding: 1rem 2rem;
-    max-width: 120rem;
-    margin: auto;
-    width: 92%;
+
+    font-family: monospace;
+    font-size: 0.9rem;
+    padding: 0.9rem 2rem;
+    padding-inline: 7%;
+    width: 100%;
     background: transparent;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1;
+    justify-content: space-between;
+    box-shadow:none;
+    background-color: transparent;
 
+    &.scroll{
+      background: translateY(0px) ;
+      background-color: white;
+      box-shadow: 0px -4px 40px 1px;
+
+    }
 }
 
 .app__navbar-logo {
@@ -39,7 +45,11 @@ font-size: 0.9rem;
 .app__navbar-title{
     font-size: 2rem;
     color: #545454;
+    @media (max-width: 991.98px){
+      font-size : 1.4rem;
+    }
 }
+
 @media (max-width: 576px){
     .app__navbar-title{
         font-size: 1rem;
@@ -58,7 +68,7 @@ letter-spacing: 1px;
     margin-right: 1rem;
 }
 
-.app__navbar-links {
+.links {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -68,11 +78,11 @@ letter-spacing: 1px;
         position: fixed;
 z-index: 2232;
         right: 0;
-        top: 7rem;
+        top: 6.4rem;
         flex-direction: column;
         width: 100%;
-        background: #202023;
-        border: 1px solid #4F4F4F;
+        background: #212121;
+        border: 1px solid #212121;
         text-align: right;
              align-items: normal;
              &.hidden{
@@ -84,7 +94,7 @@ z-index: 2232;
               }
         & li{
             
-                border-block: 1px solid #4F4F4F;
+               
                 padding: 2rem;
             
         }
@@ -94,10 +104,10 @@ z-index: 2232;
     }
 }
 
-.app__navbar-links li a {
+.links li a {
     margin: 1rem;
     cursor: pointer;
-    color: #d4d4d4;
+    color: var(--hover-sky-blue);
     font-size: 1.3rem;
     text-align: start;
     text-decoration: none;
@@ -108,20 +118,10 @@ z-index: 2232;
 
 }
 
-.app__navbar-links li a:hover,.app__navbar-links li a:focus {
+.links li a:hover,.links li a:focus {
     color: var(--hover-sky-blue);
     font-size:2.3rem;
     
-}
-
-
-
-
-@media screen and (max-width: 650px) {
-    .app__navbar {
-        padding: 1rem;
-    }
-
 }  
 .openIcon{
     background-color: transparent;

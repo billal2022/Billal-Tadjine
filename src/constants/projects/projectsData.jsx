@@ -58,7 +58,7 @@ export default function ProjectsData() {
                   <Button  data-aos="fade-up"
                   data-aos-easing="ease-in-out"
                   data-aos-anchor-placement="center-bottom"
-                  className="noselect" Button="Code" href={b.visit} target="_blank" />
+                   Button="Code" href={b.visit} target="_blank" />
            
                 <a className="noselect" href={b.source} target="_blank">
                   <button

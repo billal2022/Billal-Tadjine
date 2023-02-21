@@ -8,7 +8,7 @@ header {
 @media (max-width: 991.98px) {
   header {
     min-height: 0%;
-    height: 70vh;
+    height: 88vh;
   }
 }
 
@@ -55,8 +55,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  border-bottom-right-radius: 1rem;
-  border-top-right-radius: 1rem;
 }
 .app__Header-contact a {
   padding-inline: 1rem;
