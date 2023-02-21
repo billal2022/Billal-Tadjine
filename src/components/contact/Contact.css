@@ -1,7 +1,5 @@
 .Contact__Container {
-  background: url(../../assets/2341664.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #212121;
 }
 .Contact__Container-bg {
   padding-block: var(--padding-block-components);
@@ -125,6 +123,8 @@ form button:hover input {
   color: white;
   font-size: 1.5rem;
   font-weight: 500;
+  padding: 1rem 2rem;
+  border: 2px solid;
   font-weight: 700;
 }
 @media (max-width: 767.98px) {

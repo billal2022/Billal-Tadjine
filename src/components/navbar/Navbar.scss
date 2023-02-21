@@ -66,7 +66,7 @@ letter-spacing: 1px;
 
     @media (max-width: 991.98px){
         position: fixed;
-
+z-index: 2232;
         right: 0;
         top: 7rem;
         flex-direction: column;
@@ -75,6 +75,13 @@ letter-spacing: 1px;
         border: 1px solid #4F4F4F;
         text-align: right;
              align-items: normal;
+             &.hidden{
+                transform: translateX(100%);
+              pointer-events: none;
+              }
+             &.visible{
+                transform-origin: right;  transform: translateX(0px);
+              }
         & li{
             
                 border-block: 1px solid #4F4F4F;
@@ -137,6 +144,7 @@ letter-spacing: 1px;
     opacity: 1;
     transition: all 0.35s ease-out;
     transform-origin: center left;
+
   }
   
   
