@@ -39,7 +39,7 @@ const Changebg=()=>{
   return (
     <nav  className={scrollEffect?"app__navbar scroll" : "app__navbar"}>
       <div className="app__navbar-logo">  
-     <img src={img}/>
+     <span  class="icon-atom logo"></span>
      <h1 className={"app__navbar-title"}>BILLAL TADJINE</h1>
       </div>
       <button onClick={updateMenu} className={open} >

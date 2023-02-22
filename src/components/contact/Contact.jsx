@@ -61,10 +61,8 @@ export default function Contact() {
           name="message" 
           id="message"></textarea>
         </div>
-        <button><input type="submit" value="Send" className="submit" /></button>
-        <div className='Contact__Container__form-feild'>
-            
-        </div>
+        <input type="submit" value="Send" className="submit" />
+
     </form>
  </div>
 </div>

@@ -1,3 +1,8 @@
+@import url(logos.css);
+.logo {
+  color: white;
+}
+
 :root {
   --font-base:monospace ;
   --font-alt: monospace;
@@ -26,7 +31,7 @@
   justify-content: space-between;
   box-shadow: none;
   background-color: transparent;
-  transition: 300ms ease-in-out;
+  transition: 400ms ease-in-out;
 }
 .app__navbar.scroll {
   background: translateY(0px);
@@ -37,16 +42,28 @@
 .app__navbar.scroll .links li a {
   color: var(--hover-sky-blue);
 }
+.app__navbar.scroll .app__navbar-title {
+  color: black;
+}
+.app__navbar.scroll .logo {
+  color: var(--hover-sky-blue);
+}
+.app__navbar.scroll .links li a:hover, .app__navbar.scroll .links li a:focus {
+  color: #545454;
+}
 
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
+.app__navbar-logo:hover .logo {
+  color: var(--hover-sky-blue);
+}
 
 .app__navbar-title {
   font-size: 2rem;
-  color: #545454;
+  color: whitesmoke;
 }
 @media (max-width: 991.98px) {
   .app__navbar-title {
@@ -60,7 +77,6 @@
   }
 }
 .app__navbar-title:hover {
-  color: var(--hover-sky-blue);
   cursor: pointer;
   letter-spacing: 1px;
 }
@@ -98,8 +114,16 @@
     transform: translateX(0px);
   }
   .links li {
-    padding: 2.3rem 0.7rem;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.1019607843);
+    padding: 2.3rem 1rem;
+    position: relative;
+  }
+  .links li::after {
+    content: "";
+    width: 78%;
+    height: 1px;
+    background-color: rgba(214, 43, 63, 0.4);
+    position: absolute;
+    inset: 100% 0 0 0;
   }
 }
 @media (max-width: 576px) {
@@ -109,6 +133,7 @@
 }
 
 .links li a {
+  position: relative;
   margin: 1rem;
   cursor: pointer;
   color: whitesmoke;
@@ -127,8 +152,26 @@
 }
 
 .links li a:hover, .links li a:focus {
-  color: var(--hover-sky-blue);
-  font-size: 2.3rem;
+  color: white;
+}
+
+.links a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--hover-sky-blue);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.links a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .openIcon {

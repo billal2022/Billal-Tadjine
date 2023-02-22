@@ -3,6 +3,7 @@ import ProjectsData from "../../constants/projects/projectsData";
 import Title from "../../constants/titles/Title";
 import { SiFrontendmentor } from "react-icons/si";
 
+
 import "./Projects.css";
 
 export default function Projects() {

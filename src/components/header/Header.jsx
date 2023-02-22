@@ -14,11 +14,11 @@ function Header() {
         <p className="title">
           HELLO I'M{"   "}
 <span>          <Typewriter
-            words={['BILLAL TADJINE', 'FRONTEND WEB DEVELOPER']}
+            words={['BILLAL TADJINE', 'FRONTEND DEVELOPER']}
             loop={Infinity}
-            typeSpeed={100}
-            deleteSpeed={100}
-            delaySpeed={1000}
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1500}
           /><span style={{color:"white"}}><Cursor cursorStyle="|" /></span></span>
           
         </p>
