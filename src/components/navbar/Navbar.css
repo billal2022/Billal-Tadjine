@@ -4,14 +4,14 @@
 }
 
 :root {
-  --font-base:monospace ;
+  --font-base: monospace;
   --font-alt: monospace;
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
+  --color-golden: #dcca87;
+  --color-black: #0c0c0c;
   --color-gray: #545454;
-  --color-crimson: #F5EFDB;
-  --color-grey: #63ACDF;
-  --color-white: #FFFFFF;
+  --color-crimson: #f5efdb;
+  --color-grey: #63acdf;
+  --color-white: #ffffff;
 }
 
 .app__navbar {
@@ -48,7 +48,8 @@
 .app__navbar.scroll .logo {
   color: var(--hover-sky-blue);
 }
-.app__navbar.scroll .links li a:hover, .app__navbar.scroll .links li a:focus {
+.app__navbar.scroll .links li a:hover,
+.app__navbar.scroll .links li a:focus {
   color: #545454;
 }
 
@@ -97,7 +98,7 @@
     position: fixed;
     z-index: 2232;
     right: 0;
-    top: 6.4rem;
+    top: 9%;
     flex-direction: column;
     width: 100%;
     background: #212121;
@@ -121,14 +122,14 @@
     content: "";
     width: 78%;
     height: 1px;
-    background-color: rgba(214, 43, 63, 0.4);
+    background-color: rgba(151, 151, 151, 0.3294117647);
     position: absolute;
-    inset: 100% 0 0 0;
+    inset: 99% 0 0 0;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 360px) {
   .links {
-    top: 4rem;
+    top: 8.5%;
   }
 }
 
@@ -151,7 +152,8 @@
   }
 }
 
-.links li a:hover, .links li a:focus {
+.links li a:hover,
+.links li a:focus {
   color: white;
 }
 

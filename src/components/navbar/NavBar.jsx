@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
-import img from "../../assets/coding.png"
-
+import {Link} from 'react-scroll';
 import './Navbar.css';
 
 const BasicExample = () => {
@@ -48,13 +46,11 @@ const Changebg=()=>{
           <span className="icon-bar bottom-bar"></span>
         </button>
       <ul className={menu_class}>
-        <li  className="p__opensans"><a onClick={updateMenu} href="#Home" >Home</a></li>
-        <li className="p__opensans"><a onClick={updateMenu} href="#About">About</a></li>
-        <li className="p__opensans"><a onClick={updateMenu} href="#Projects">Projects</a></li>
-        <li className="p__opensans"><a onClick={updateMenu} href="#Contact">Contact</a></li>
+        <li  className="p__opensans"><Link activeClass="active"  spy={true} onClick={updateMenu} to="Home" >Home</Link></li>
+        <li className="p__opensans"><Link spy={true} onClick={updateMenu} to="About">About</Link></li>
+        <li className="p__opensans"><Link  spy={true}onClick={updateMenu} to="Projects">Projects</Link></li>
+        <li className="p__opensans"><Link spy={true} onClick={updateMenu} to="Contact">Contact</Link></li>
       </ul>
-        
-    
     </nav>
   );
 };
