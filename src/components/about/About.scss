@@ -35,7 +35,10 @@ overflow: hidden;
         color: grey;
         letter-spacing: 3px;
         max-width: 50rem;
-        
+        @media (max-width: 991.98px){
+        	font-size: 0.9rem;
+    letter-spacing: 2px;
+        }
     }
    /*childs main*/
     &-main{

@@ -41,6 +41,12 @@
   letter-spacing: 3px;
   max-width: 50rem;
 }
+@media (max-width: 991.98px) {
+  .About__section-sub {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+  }
+}
 .About__section-main p {
   letter-spacing: 1px;
   color: grey;

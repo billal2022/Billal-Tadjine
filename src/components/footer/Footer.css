@@ -59,7 +59,7 @@
   color: white;
 }
 .Footer__main-container-content-top-right-icons *:hover, .Footer__main-container-content-top-right-icons *:focus {
-  color: var(--hover-sky-blue);
+  color: black;
 }
 .Footer__main-container-bot {
   padding: 4rem 0;
