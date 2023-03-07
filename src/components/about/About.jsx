@@ -62,17 +62,29 @@ function About() {
             data-aos-easing="ease-in-out"
             data-aos-duration="1200"
             className="About__section-skills-skills">
-            <Icons icons={<AiFillHtml5 />} disc="HTML" />
-            <Icons icons={<DiCss3 />} disc="CSS" />
-            <Icons icons={<DiJavascript />} disc="JavaScript" />
-            <Icons icons={<DiReact />} disc="React" />
-            <Icons icons={<DiSass />} disc="SASS" />
-            <Icons icons={<DiGit />} disc="Git" />
-            <Icons icons={<AiOutlineGithub />} disc="GitHub" />
-            <Icons icons={<DiResponsive />} disc="Responsive Design" />
-            <Icons icons={<FaSearchengin />} disc="SEO" />
-            <Icons icons={<DiTerminal />} disc="Terminal" />
-            <Icons icons={<FaBootstrap />} disc="Bootstrap" />
+            <Icons icons={<AiFillHtml5 />} disc="HTML" className="icons" />
+            <Icons icons={<DiCss3 />} disc="CSS" className="icons" />
+            <Icons
+              icons={<DiJavascript />}
+              disc="JavaScript"
+              className="icons"
+            />
+            <Icons icons={<DiReact />} disc="React" className="icons" />
+            <Icons icons={<DiSass />} disc="SASS" className="icons" />
+            <Icons icons={<DiGit />} disc="Git" className="icons" />
+            <Icons
+              icons={<AiOutlineGithub />}
+              disc="GitHub"
+              className="icons"
+            />
+            <Icons
+              icons={<DiResponsive />}
+              disc="Responsive Design"
+              className="icons"
+            />
+            <Icons icons={<FaSearchengin />} disc="SEO" className="icons" />
+            <Icons icons={<DiTerminal />} disc="Terminal" className="icons" />
+            <Icons icons={<FaBootstrap />} disc="Bootstrap" className="icons" />
             <Icons
               icons={<SiTailwindcss />}
               style={{ color: "green" }}
