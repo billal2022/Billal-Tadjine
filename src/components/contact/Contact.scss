@@ -20,7 +20,7 @@
         
     }
     &-p{
-        margin-inline: 3rem;
+       
         padding-block: 2rem;
         max-width: 65rem;
         text-transform: capitalize;
@@ -103,6 +103,7 @@
         }
         p{
             color: whitesmoke;
+            margin-inline: 3rem;
         }
     }
 }

@@ -117,16 +117,18 @@
   flex-wrap: wrap;
 }
 .Pdata__container-skills-childs {
-  padding: 1rem 2rem;
+  background: hsla(0, 0%, 100%, 0.2);
+  border-radius: 99999px;
+  color: #666;
+  font-size: 1.6rem;
+  font-weight: 600;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
-  font-size: 1.6rem;
-  background: rgba(153, 153, 153, 0.2);
-  border-radius: 5px;
-  font-weight: 600;
-  color: #666;
+  padding: 1rem 2rem;
   width: -moz-min-content;
   width: min-content;
+  border: 3px solid var(--hover-sky-blue);
+  letter-spacing: 1px;
 }
 @media (max-width: 1440px) {
   .Pdata__container-skills-childs {

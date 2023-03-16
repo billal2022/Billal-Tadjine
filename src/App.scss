@@ -19,7 +19,7 @@
     background-clip: initial;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    bottom: 40px;
+    bottom: 20px;
     color: #5f6368;
     display: -webkit-box;
     display: -webkit-flex;
@@ -35,7 +35,7 @@
     min-width: 0;
     overflow: visible;
     position: fixed;
-    right: 40px;
+    right: 20px;
     -webkit-transition: background-color 0.3s cubic-bezier(0.4, 0, 1, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 1, 1),
         -webkit-transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     transition: background-color 0.3s cubic-bezier(0.4, 0, 1, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 1, 1),

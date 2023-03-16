@@ -120,15 +120,18 @@
         flex-wrap: wrap;
     }
     &__container-skills-childs {
-        padding: 1rem 2rem;
+        background: hsl(0deg 0% 100% / 20%);
+        border-radius: 99999px;
+        color: #666;
+        font-size: 1.6rem;
+        font-weight: 600;
         margin-bottom: 1.5rem;
         margin-right: 1.5rem;
-        font-size: 1.6rem;
-        background: rgba(153,153,153,.2);
-        border-radius: 5px;
-        font-weight: 600;
-        color: #666;
+        padding: 1rem 2rem;
+        width: -webkit-min-content;
         width: min-content;
+        border: 3px solid var(--hover-sky-blue);
+        letter-spacing: 1px;
         @media (max-width: 1440px){
             padding: 0.5rem 1rem;
             margin-bottom: .5rem;

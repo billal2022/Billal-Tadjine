@@ -44,6 +44,7 @@
 }
 .app__navbar.scroll .links li a {
   color: var(--hover-sky-blue);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2588235294);
 }
 .app__navbar.scroll .app__navbar-title {
   color: black;
