@@ -5,22 +5,77 @@ import { BsLinkedin } from "react-icons/bs";
 import { SiFrontendmentor } from "react-icons/si";
 import Animated_arrow from "../../constants/animated_arrow/animated_arrow";
 import Button from "../../constants/button/Button";
-import { Cursor, Typewriter } from 'react-simple-typewriter'
+import { Cursor, Typewriter } from "react-simple-typewriter";
 
 function Header() {
   return (
-    <header id="Home">
+    <header id="Home" className="bubbles">
+       
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
+  <div className="bubble"></div>
       <section className="app__Header">
         <p className="title">
           HELLO I'M{"   "}
-<span>          <Typewriter
-            words={['BILLAL TADJINE', 'FRONTEND DEVELOPER']}
-            loop={Infinity}
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1500}
-          /><span style={{color:"white"}}><Cursor cursorStyle="|" /></span></span>
-          
+          <span>
+            {" "}
+            <Typewriter
+              words={["BILLAL TADJINE", "FRONTEND DEVELOPER"]}
+              loop={Infinity}
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
+            <span style={{ color: "white" }}>
+              <Cursor cursorStyle="|" />
+            </span>
+          </span>
         </p>
 
         <p className="app__Header-p">
@@ -36,20 +91,23 @@ function Header() {
         <a
           target={"_blank"}
           href="https://github.com/billal2022"
-          title="Github link" rel="noreferrer">
+          title="Github link"
+          rel="noreferrer">
           <GoMarkGithub />
         </a>
         <a
           target={"_blank"}
           href="https://www.linkedin.com/in/billal-tadjine-ba314a24b/"
-          title="LinkedIn link" rel="noreferrer">
+          title="LinkedIn link"
+          rel="noreferrer">
           {" "}
           <BsLinkedin />
         </a>
         <a
           target={"_blank"}
           href="https://www.frontendmentor.io/profile/billal2022"
-          title="Frontendmentor link" rel="noreferrer">
+          title="Frontendmentor link"
+          rel="noreferrer">
           <SiFrontendmentor />
         </a>
       </div>

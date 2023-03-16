@@ -72,11 +72,4 @@
     gap: 0.8rem;
     justify-content: space-evenly;
   }
-}
-
-.icons {
-  width: 6rem;
-  height: 6rem;
-  display: grid;
-  place-content: center;
 }/*# sourceMappingURL=About.css.map */

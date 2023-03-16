@@ -30,7 +30,13 @@
   box-shadow: none;
   background: #3c4043;
   color: #9aa0a6;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(40deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+.arrow:active {
+  transform: scale(0.9);
 }
 .arrow * {
-  color: #d62b3f;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(40deg, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
 }/*# sourceMappingURL=App.css.map */

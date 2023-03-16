@@ -1,5 +1,5 @@
 .Footer__main {
-  background-color: #D62B3F;
+  background-color: var(--hover-sky-blue);
 }
 .Footer__main h2, .Footer__main p, .Footer__main span {
   color: #fff;

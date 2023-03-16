@@ -1,14 +1,15 @@
-.Icons__func span {
+.Icons__func {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  width: 6rem;
+  height: 5rem;
 }
 .Icons__func-p {
+  letter-spacing: 1.5px;
   color: grey;
+  font-size: 1rem;
   font-weight: 600;
   padding: 10px;
-  LETTER-SPACING: 1.5px;
-  font-size: 1rem;
 }/*# sourceMappingURL=Icons.css.map */
