@@ -21,6 +21,7 @@ export default function Projects() {
       <ProjectsData />
       <a
         className="App__Projects-link"
+        rel="noreferrer"
         target={"_blank"}
         href="https://www.frontendmentor.io/profile/billal2022">
         <button>
