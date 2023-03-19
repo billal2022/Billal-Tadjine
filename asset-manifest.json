@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Billal-Tadjine/static/css/main.f41d8b7d.css",
-    "main.js": "/Billal-Tadjine/static/js/main.f86d459f.js",
+    "main.css": "/Billal-Tadjine/static/css/main.b917f47f.css",
+    "main.js": "/Billal-Tadjine/static/js/main.2c40ec75.js",
     "static/media/2.png": "/Billal-Tadjine/static/media/2.72c12f4768635fc8e4b6.png",
     "static/media/1.png": "/Billal-Tadjine/static/media/1.83a78d0b5ede50097a3f.png",
     "static/media/3.png": "/Billal-Tadjine/static/media/3.81807b01fff361acc1e0.png",
@@ -12,11 +12,11 @@
     "static/media/logo-portfolio.woff?yptdyb": "/Billal-Tadjine/static/media/logo-portfolio.10aebdba8b34c33dd845.woff",
     "static/media/logo-portfolio.ttf?yptdyb": "/Billal-Tadjine/static/media/logo-portfolio.f6c32f54f3be8f8e49bc.ttf",
     "index.html": "/Billal-Tadjine/index.html",
-    "main.f41d8b7d.css.map": "/Billal-Tadjine/static/css/main.f41d8b7d.css.map",
-    "main.f86d459f.js.map": "/Billal-Tadjine/static/js/main.f86d459f.js.map"
+    "main.b917f47f.css.map": "/Billal-Tadjine/static/css/main.b917f47f.css.map",
+    "main.2c40ec75.js.map": "/Billal-Tadjine/static/js/main.2c40ec75.js.map"
   },
   "entrypoints": [
-    "static/css/main.f41d8b7d.css",
-    "static/js/main.f86d459f.js"
+    "static/css/main.b917f47f.css",
+    "static/js/main.2c40ec75.js"
   ]
 }
