@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           <div className="Footer__main-container-content-top-right">
-            <span>SOCIAL</span>
+            <h2>SOCIAL</h2>
             <div className="Footer__main-container-content-top-right-icons">
               <a
                 target={"_blank"}

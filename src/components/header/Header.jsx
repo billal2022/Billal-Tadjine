@@ -10,58 +10,57 @@ import { Cursor, Typewriter } from "react-simple-typewriter";
 function Header() {
   return (
     <header id="Home" className="bubbles">
-       
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
-  <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
+      <div className="bubble"></div>
       <section className="app__Header">
-        <p className="title">
+        <h1 className="title">
           HELLO I'M{"   "}
           <span>
             {" "}
@@ -76,16 +75,12 @@ function Header() {
               <Cursor cursorStyle="|" />
             </span>
           </span>
-        </p>
-
+        </h1>
         <p className="app__Header-p">
           Welcome to my website! I am a front-end web developer who applies his
           skills in building websites.
-        </p>
-        <a href="#Projects">
-          {" "}
-          <Button Button="PROJECTS" href={"#Projects"} />
-        </a>
+        </p>{" "}
+        <Button Button="PROJECTS" href={"#Projects"} />
       </section>
       <div className="app__Header-contact">
         <a
